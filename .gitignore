@@ -1,0 +1,7 @@
+.*.swp
+meminfo.egg-info/*
+MANIFEST.in
+build/*
+docs/build/*
+dist/*
+html/*
