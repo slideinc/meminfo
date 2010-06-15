@@ -356,9 +356,9 @@ static PyMethodDef _meminfo_methods[] = {
 	{NULL, NULL, 0, NULL}
 };
 
-PyMODINIT_FUNC initmeminfo(void)
+PyMODINIT_FUNC init_meminfo(void)
 {
-	(void)Py_InitModule3("meminfo", _meminfo_methods, info_doc);
+	(void)Py_InitModule3("_meminfo", _meminfo_methods, info_doc);
 }
 /*
  * Local Variables:

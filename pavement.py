@@ -14,9 +14,10 @@ setup(
     license="bsd",
     author="Libor Michalek",
     author_email="libor@pobox.com",
+	py_modules=['meminfo'],
     ext_modules=[Extension(
-        'meminfo',
-        ['meminfomodule.c'],
+        '_meminfo',
+        ['_meminfomodule.c'],
         include_dirs=('.',),
         extra_compile_args=['-Wall'])],
     classifiers = [
@@ -34,7 +35,7 @@ MANIFEST = (
     "LICENSE",
     "setup.py",
     "paver-minilib.zip",
-    "meminfomodule.c",
+    "_meminfomodule.c",
 )
 
 @task
