@@ -10,7 +10,7 @@ from paver.setuputils import setup
 setup(
     name="meminfo",
     description="C extension for finding precise in-memory sizes of python objects",
-    version="1.0",
+    version="1.0.1",
     license="bsd",
     author="Libor Michalek",
     author_email="libor@pobox.com",
